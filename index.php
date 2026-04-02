@@ -470,7 +470,7 @@
     <div class="container" style="max-width: 1400px; margin: 2rem auto; padding: 0 2rem;">
       <div style="text-align: center; margin-bottom: 0;">
         <h1 style="color: #9ec7fc; font-size: 2rem; margin-bottom: 0; font-weight: 600;">
-          Digital Sovereignty Navigator
+          Navigator für digitale Souveränität
         </h1>
       </div>
 
@@ -479,10 +479,10 @@
         <div class="landing-card">
           <div class="landing-card-header">
             <i class="fa-solid fa-clipboard-check"></i>
-            <h2>Digital Sovereignty Readiness Assessment</h2>
+            <h2>Bewertung der digitalen Souveränität</h2>
           </div>
           <p class="landing-card-description">
-            Quick 10-15 minute assessment to evaluate your organization's digital sovereignty readiness across 7 key domains
+            Schnelle 10-15-minütige Bewertung zur Einschätzung der digitalen Souveränitätsbereitschaft Ihrer Organisation in 7 Schlüsselbereichen
           </p>
 
           <div class="landing-card-content">
@@ -490,7 +490,7 @@
             <div class="landing-card-left">
               <div class="profile-selector">
                 <label for="profile-select">
-                  <i class="fa-solid fa-layer-group"></i> Select Your Industry/Context:
+                  <i class="fa-solid fa-layer-group"></i> Wählen Sie Ihre Branche/Kontext:
                 </label>
                 <select id="profile-select" name="profile">
                   <?php foreach ($profiles as $profileKey => $profileData): ?>
@@ -512,9 +512,9 @@
 
               <!-- Custom Weights Controls (shown only when Custom profile is selected) -->
               <div class="custom-weights-section" id="custom-weights-section">
-                <h4><i class="fa-solid fa-sliders"></i> Customize Domain Weights</h4>
+                <h4><i class="fa-solid fa-sliders"></i> Domainengewichtung anpassen</h4>
                 <p style="font-size: 0.8rem; color: #999; margin-bottom: 1rem; text-align: center;">
-                  Adjust weights from 1.0× (standard) to 2.0× (critical priority)
+                  Passen Sie die Gewichtung von 1.0× (Standard) auf 2.0× (kritische Priorität) an
                 </p>
                 <?php foreach ($domainNames as $domain): ?>
                   <div class="custom-weight-control">
@@ -538,7 +538,7 @@
 
               <div class="landing-card-buttons">
                 <button id="start-assessment-btn" class="landing-button landing-button-primary">
-                  <i class="fa-solid fa-rocket"></i> Start Assessment
+                  <i class="fa-solid fa-rocket"></i> Bewertung starten
                 </button>
               </div>
             </div>
@@ -573,46 +573,46 @@
                 <div class="maturity-level-item level-initial">
                   <div class="maturity-level-name">
                     <i class="fa-solid fa-circle-exclamation"></i>
-                    Initial
+                    Anfangs
                     <span class="maturity-level-range">(0-20%)</span>
                   </div>
-                  <div class="maturity-level-desc">Unpredictable, poorly controlled, reactive processes</div>
+                  <div class="maturity-level-desc">Unvorhersehbare, schlecht kontrollierte, reaktive Prozesse</div>
                 </div>
 
                 <div class="maturity-level-item level-managed">
                   <div class="maturity-level-name">
                     <i class="fa-solid fa-clipboard-list"></i>
-                    Managed
+                    Gesteuert
                     <span class="maturity-level-range">(21-40%)</span>
                   </div>
-                  <div class="maturity-level-desc">Projects planned and executed per policy, basic controls in place</div>
+                  <div class="maturity-level-desc">Projekte geplant und nach Richtlinien ausgeführt, grundlegende Kontrollen vorhanden</div>
                 </div>
 
                 <div class="maturity-level-item level-defined">
                   <div class="maturity-level-name">
                     <i class="fa-solid fa-sitemap"></i>
-                    Defined
+                    Definiert
                     <span class="maturity-level-range">(41-60%)</span>
                   </div>
-                  <div class="maturity-level-desc">Standardized, documented, and proactive processes organization-wide</div>
+                  <div class="maturity-level-desc">Standardisierte, dokumentierte und proaktive Prozesse organisationsweit</div>
                 </div>
 
                 <div class="maturity-level-item level-quantitative">
                   <div class="maturity-level-name">
                     <i class="fa-solid fa-chart-line"></i>
-                    Quantitatively Managed
+                    Quantitativ gesteuert
                     <span class="maturity-level-range">(61-80%)</span>
                   </div>
-                  <div class="maturity-level-desc">Measured and controlled using statistical techniques and data</div>
+                  <div class="maturity-level-desc">Gemessen und gesteuert mit statistischen Techniken und Daten</div>
                 </div>
 
                 <div class="maturity-level-item level-optimizing">
                   <div class="maturity-level-name">
                     <i class="fa-solid fa-rocket"></i>
-                    Optimizing
+                    Optimierend
                     <span class="maturity-level-range">(81-100%)</span>
                   </div>
-                  <div class="maturity-level-desc">Continuous improvement and innovation-focused processes</div>
+                  <div class="maturity-level-desc">Kontinuierliche Verbesserung und innovationsorientierte Prozesse</div>
                 </div>
               </div>
             </div>
@@ -742,7 +742,7 @@
   </div>
 
   <footer class="disclaimer-footer">
-    <p><strong>Disclaimer:</strong> This Digital Sovereignty Readiness Assessment Tool is provided by Red Hat for informational purposes only to help organizations review their general sovereign posture. It cannot be used to validate an organization’s compliance with any specific sovereignty requirements. It is not endorsed by any regulatory authority, and its findings or recommendations do not constitute legal advice. Red Hat bears no legal responsibility or liability for the results or its use. No identity data will be collected or saved.</p>
+    <p><strong>Haftungsausschluss:</strong> Dieses Tool zur Bewertung der digitalen Souveränität wird von Red Hat nur zu Informationszwecken bereitgestellt, um Organisationen bei der Überprüfung ihrer allgemeinen souveränen Position zu unterstützen. Es kann nicht zur Validierung der Einhaltung spezifischer Souveränitätsanforderungen verwendet werden. Es wird von keiner Aufsichtsbehörde empfohlen, und seine Ergebnisse oder Empfehlungen stellen keine Rechtsberatung dar. Red Hat übernimmt keine rechtliche Verantwortung oder Haftung für die Ergebnisse oder deren Verwendung. Es werden keine Identitätsdaten gesammelt oder gespeichert.</p>
   </footer>
 </body>
 </html>
